@@ -183,7 +183,7 @@ text-shadow: 1px 1px 10px #5AB1D1,-1px 1px 10px #5AB1D1,1px -1px 10px #5AB1D1,-1
   font-size:3rem;
 }
 
-@media  (max-width: 400px) {
+@media  (max-width: 450px) {
   #navbar {
     justify-content:center;
   }
@@ -196,4 +196,20 @@ text-shadow: 1px 1px 10px #5AB1D1,-1px 1px 10px #5AB1D1,1px -1px 10px #5AB1D1,-1
  #contact a{
   scale:0.5;
 }
+
+#contact-box{
+  column-gap:0px;
+  row-gap:0px;
 }
+
+#contact a:hover{
+  scale:0.8;
+}
+#contact a svg{
+  padding:0rem;
+}
+#contact a img{
+  padding:0rem;
+}
+}
+
