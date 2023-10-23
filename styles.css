@@ -193,6 +193,11 @@ text-shadow: 1px 1px 10px #5AB1D1,-1px 1px 10px #5AB1D1,1px -1px 10px #5AB1D1,-1
  #welcome{
   display:block;
 }
+#welcome-section h1 img{
+  width:80%;
+  position:relative;
+  top:18;
+}
  #contact a{
   scale:0.5;
 }
